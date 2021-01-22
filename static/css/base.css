@@ -1,0 +1,106 @@
+/** Carousel **/
+html,
+body {
+    height: 100vh;
+    font-family: 'Roboto', serif;
+}
+
+.carousel-container{
+    height: 100%;
+}
+
+.carousel-inner {
+    position: relative;
+    height: 750px;
+    z-index: 1;
+}
+
+.carousel-indicators-extension {
+    z-index: 9000;
+}
+
+.carousel-text-box-1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 35%;
+    color: #fff;
+    text-align: center;
+}
+
+.text-shadow-carousel {
+    text-shadow: 1.5px 1.5px #303030;
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+.btn-wine {
+    background: #722f37;
+    color: white;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+.wine-color {
+    color:#722f37 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 120px;
+    }
+}
