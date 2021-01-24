@@ -5,13 +5,9 @@ body {
     font-family: 'Roboto', serif;
 }
 
-.carousel-container{
-    height: 100%;
-}
-
 .carousel-inner {
     position: relative;
-    height: 750px;
+        height: calc(100vh - 120px);
     z-index: 1;
 }
 
@@ -20,7 +16,7 @@ body {
 }
 
 .carousel-text-box-1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 0.1em;
     position: absolute;
     top: 35%;
@@ -29,7 +25,7 @@ body {
     right: 35%;
     color: #fff;
     text-align: center;
-}
+} 
 
 .text-shadow-carousel {
     text-shadow: 1.5px 1.5px #303030;
@@ -61,6 +57,18 @@ body {
 .btn-wine {
     background: #722f37;
     color: white;
+}
+.btn-home {
+    background: #722f37;
+    color: white;
+    border: 1.5px solid white;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;   
+}
+.btn-home:hover {
+    background: white;
+    color: #722f37;
+    text-decoration: none;
+    border: 1.5px solid #722f37;
 }
 
 .btn-outline-black {
