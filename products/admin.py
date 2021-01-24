@@ -14,7 +14,6 @@ class ProductAdmin(admin.ModelAdmin):
         'grape_variety',
         'alcohol',
         'residual_sugar',
-        'description',
         'price',
         'rating',
         'image',
