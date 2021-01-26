@@ -14,7 +14,7 @@ a {
 
 .carousel-inner {
     position: relative;
-        height: calc(100vh - 120px);
+    height: calc(100vh - 120px);
     z-index: 1;
 }
 
@@ -22,17 +22,17 @@ a {
     z-index: 9000;
 }
 
-.carousel-text-box-1 {
-    font-size: 2rem;
+.carousel-text-box {
+    font-size: 1.5rem;
     letter-spacing: 0.1em;
     position: absolute;
     top: 35%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    right: 35%;
+    right: 15%;
     color: #fff;
     text-align: center;
-} 
+}
 
 .text-shadow-carousel {
     text-shadow: 1.5px 1.5px #303030;
@@ -67,6 +67,7 @@ a {
 }
 .btn-home {
     background: #722f37;
+    font-size: small;
     color: white;
     border: 1.5px solid white;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;   
