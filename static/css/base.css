@@ -1,5 +1,6 @@
-/** Carousel **/
-html,
+html {
+    height: 100%;
+}
 body {
     height: 100vh;
     font-family: 'Roboto', serif;
@@ -7,6 +8,7 @@ body {
 a {
     color: #722f37;
 }
+/** Carousel **/
 .animate__animated.animate__pulse{
   --animate-duration: 1.5s;
   --animate-delay: 0.9s;
