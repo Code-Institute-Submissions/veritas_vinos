@@ -1,17 +1,25 @@
 # Veritas Vinos
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+Veritas Vinos is an online shop, which offers a huge wine variety. The website also publishes blog posts about wine and it's cultivation where the site visitors can leave a comment.
  
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+# UX
+## Project Goals
+### Target Audience
+- People who want to buy wine 
+- People who prefer more exclusive products that they can't get in a supermarket.
+- People who seek for presents for special occasions such as birthdays, weddings, anniversaries, etc.
+- People who want to read interesting blog articles about wine, it's cultivation and production
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Visitor / User Goals
+- Purchase products in a smooth and secure way
+- Get informed with the products before buying by product reviews / product information or rating
+- Gain interesting knowledge about wine from blog articles and leave a comment on blog articles
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Business Goals (Site Owner's Goals)
+- Provide customers with a secure and safe ecommerce shop
+- Establish the shop's brand image
+- Expand their business effectively
+- Make profit from selling products / services
 
 ## Features
 
