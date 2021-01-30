@@ -117,6 +117,10 @@ a {
     border: 1px solid black !important;
 }
 
+.border-wine {
+    border: 1px solid #722f37 !important;
+}
+
 .bg-black {
     background: #000 !important;
 }
@@ -145,6 +149,7 @@ a.category-badge > span.badge:hover {
 }
 
 .btt-button {
+    color: #722f37;
     height: 42px;
     width: 42px;
     position: fixed;
