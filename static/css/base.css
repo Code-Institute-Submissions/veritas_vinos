@@ -330,6 +330,27 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+/* ---------------------------------------- Blog */
+.extra-margin {
+    margin-top: 8rem;
+}
+.blog-text-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 50px;
+}
+
+.post-card-body {
+    margin-bottom: 25px;
+}
+
+.card-text {
+    margin-left: 2rem;
+}
+
+#id_body {
+    width: 100%;
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
