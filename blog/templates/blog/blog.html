@@ -54,15 +54,15 @@
           />
           {% endif %}
         </a>
-        <a href="{% url 'post_detail' post.slug  %}">
-          <h2 class="card-title">{{ post.title }}</h2>
-        </a>
+        
+          <h2 class="card-title wine-color">{{ post.title }}</h2>
+        
         <p class="card-text text-muted h6">
             {{ post.author }} | {{ post.created_on}}
         </p>
         <p class="card-text">{{ post.content|safe|slice:":100" }}...
         </p>
-        <a href="{% url 'post_detail' post.slug  %}" class="btn btn-yellow">Read More
+        <a href="{% url 'post_detail' post.slug  %}" class="btn btn-wine">Read More
         </a>
         </div>
       </div>
