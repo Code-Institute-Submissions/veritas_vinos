@@ -1,0 +1,1 @@
+web: gunicorn veritas-vinos.wsgi:application
