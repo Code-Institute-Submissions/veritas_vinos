@@ -1,1 +1,1 @@
-web: gunicorn veritas_vinos.wsgi:application
+web: gunicorn veritas_vinos.wsgi:application --log-file -
