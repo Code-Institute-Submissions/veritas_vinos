@@ -21,17 +21,17 @@ Veritas Vinos is an online shop, which offers a huge wine variety. The website a
 - Expand their business effectively
 - Make profit from selling products / services
 
-## Features
+# Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+## Existing Features
+This website is composed of 6 applications: `home`, `blog`, `bag`, `checkout`, `products`, `profiles`.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+## Landing Page
+Landing Page is designed as a single page website to provide site visitors with enough information so they can understand what the business is about of this site.
+This page has minimal amount of information to let the site visitors take next actions. The page compose of `Navbar`, `Carousel`, `About`, `Why Choose Us?` and `Contact Form` section.
+As scrolling down on thie page, the elements are smoothly being placed by [Animate.css](https://animate.style/) and [wow.js](https://wowjs.uk/docs) animation effects to give a dynamic and sophisticated experience to the site visitors.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 - Another feature idea
