@@ -6,7 +6,6 @@ from profiles.models import UserProfile
 from django.conf import settings
 
 from .forms import ContactForm
-
 # Create your views here.
 
 
@@ -19,7 +18,7 @@ def index(request):
     # Prefill the email address field at contact form
     if request.user.is_authenticated:
         profile = get_object_or_404(UserProfile, user=request.user)
-        contact_form = ContactForm(initial={"email": profile.default_email})
+        contact_form = ContactForm(initial={"email": request.user.email})
     else:
         contact_form = ContactForm()
 
