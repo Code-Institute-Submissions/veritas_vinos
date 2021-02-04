@@ -10,9 +10,22 @@ from .forms import ContactForm
 # Create your views here.
 
 def index(request):
-    """ A view to return the index page """
+    """
+    Render index.html and ContactForm
+    """
+    template = 'home/index.html'
 
-    return render(request, 'home/index.html')
+    # Prefill the email address field at contact form
+    if request.user.is_authenticated:
+        profile = get_object_or_404(UserProfile, user=request.user)
+        contact_form = ContactForm(initial={"email": profile.default_email})
+    else:
+        contact_form = ContactForm()
+
+    context = {
+        'contact_form': contact_form,
+    }
+    return render(request, template, context)
 
 
 def contactform(request):
