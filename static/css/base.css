@@ -16,7 +16,7 @@ a {
 
 .carousel-inner {
     position: relative;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 120px);
     z-index: 1;
 }
 
