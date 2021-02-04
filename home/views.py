@@ -9,6 +9,7 @@ from .forms import ContactForm
 
 # Create your views here.
 
+
 def index(request):
     """
     Render index.html and ContactForm
