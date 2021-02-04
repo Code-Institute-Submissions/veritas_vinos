@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-
+<!-- Carousel Image Slider -->
         <div id="carouselExampleIndicators" class="carousel carousel-extension slide" data-ride="carousel" data-interval="6500">
             <ol class="carousel-indicators carousel-indicators-extension">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -67,5 +67,71 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+<!-- Choose us Section -->
+<section class="page-section bg-choose-us" id="why-choose-us">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-5 text-center my-auto animate__animated animate__fadeInLeft wow">
+                <div class="d-none d-lg-block">
+                    <img src="{{MEDIA_URL}}choose_us.jpg" class="img-fluid" alt="about_img" />
+                </div>
+            </div>
+            <div class="col-lg-5 animate__animated animate__fadeInRight wow">
+                <div class="mb-5 mt-4 text-center">
+                    <h2 class="text-center liner-text">Why Choose Us?</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-lg-12">
+                        <div class="center">
+                            <div class="row">
+                                <div class="col-lg-2 pr-0 text-center about-icon">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="col-lg-10 mb-4 explain-center">
+                                    <h5>High Quality Products</h5>
+                                    <p>
+                                        We are in close contact with our suppliers and guarantee quality products at fair prices.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-12">
+                        <div class="center">
+                            <div class="row">
+                                <div class="col-lg-2 pr-0 text-center about-icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                                <div class="col-lg-10 mb-4 explain-center">
+                                    <h5>Fast Delivery</h5>
+                                    <p>
+                                        We guarantee fast delivery within 3 working days within the EU. From a value of 70, - the delivery is free.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-12">
+                        <div class="center">
+                            <div class="row">
+                                <div class="col-lg-2 pr-0 text-center about-icon">
+                                    <i class="fas fa-glass-cheers"></i>
+                                </div>
+                                <div class="col-lg-10 mb-4 explain-center">
+                                    <h5>Vast Range of Products</h5>
+                                    <p>
+                                        Our product range is growing every day. We have wines for every occasion. Convince yourself of our extensive range!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 {% endblock %}

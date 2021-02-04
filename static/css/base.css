@@ -39,6 +39,12 @@ a {
 .text-shadow-carousel {
     text-shadow: 1.5px 1.5px #303030;
 }
+/* Choose Us */
+.page-section {
+    padding: 1rem;
+}
+
+
 
 /* from Bulma */
 .icon {
