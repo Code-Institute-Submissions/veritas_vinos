@@ -44,6 +44,11 @@ a {
     padding: 1rem;
 }
 
+.img-choose {
+        margin: 3rem 0;
+        max-height: 600px;
+}
+
 
 
 /* from Bulma */
