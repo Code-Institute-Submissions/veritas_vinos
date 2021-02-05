@@ -402,10 +402,6 @@ input[name='q']::placeholder {
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
     body {
         height: calc(100vh - 116px);
     }
@@ -449,4 +445,11 @@ input[name='q']::placeholder {
         font-size: small;
     }
     
+}
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+.carousel-text-box {
+    top: 45%;
+    font-size: 1.4rem;
+}
 }
