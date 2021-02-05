@@ -256,14 +256,20 @@ input[name='q']::placeholder {
 
 .footer-container {
     background-color:#722f37;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     color: #F9F9F9;
 }
 
 .footer-logo {
     letter-spacing: 5.6px;
     font-size: 28px;
+}
+
+.social-links li i {
+    color: #F9F9F9;
+    padding: 10px;
+    font-size: 16px;
 }
 
 /* -------------------------------- Media Queries */
