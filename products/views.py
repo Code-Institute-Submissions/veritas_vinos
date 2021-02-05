@@ -37,6 +37,7 @@ def all_products(request):
             
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
+            current_categories = categories
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
@@ -50,6 +51,7 @@ def all_products(request):
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
+    print(all_categories, current_categories)
 
     context = {
         'products': products,
