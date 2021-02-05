@@ -252,6 +252,20 @@ input[name='q']::placeholder {
     color: #fff !important;
 }
 
+/* Footer */
+
+.footer-container {
+    background-color:#722f37;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #F9F9F9;
+}
+
+.footer-logo {
+    letter-spacing: 5.6px;
+    font-size: 28px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
