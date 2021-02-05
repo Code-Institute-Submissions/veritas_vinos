@@ -241,6 +241,10 @@ input[name='q']::placeholder {
     border-bottom-color: #343a40 !important;
 }
 
+.bag {
+    height: calc(100vh - 292px);
+}
+
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
@@ -456,5 +460,8 @@ input[name='q']::placeholder {
 .carousel-text-box {
 
     font-size: 1.4rem;
+}
+.bag {
+    height: calc(100vh - 196px);
 }
 }
