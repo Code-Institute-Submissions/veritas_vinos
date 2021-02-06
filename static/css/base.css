@@ -259,10 +259,14 @@ input[name='q']::placeholder {
 /* Footer */
 
 .footer-container {
-    background-color:#722f37;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    color: #F9F9F9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  background-color:#722f37;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #F9F9F9;           
 }
 
 .footer-logo {
