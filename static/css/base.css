@@ -242,7 +242,7 @@ input[name='q']::placeholder {
 }
 
 .bag {
-    height: calc(100vh - 292px);
+    height: calc(100vh - 412px);
 }
 
 .bag-notification-wrapper {
@@ -448,6 +448,9 @@ input[name='q']::placeholder {
     .small-fs {
         font-size: small;
     }
+    .bag {
+    height: calc(100vh - 316px);
+}
     
 }
 /* iPhone X ----------- */
@@ -462,6 +465,6 @@ input[name='q']::placeholder {
     font-size: 1.4rem;
 }
 .bag {
-    height: calc(100vh - 196px);
+    height: calc(100vh - 316px);
 }
 }
