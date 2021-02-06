@@ -5,6 +5,11 @@ body {
     height: 100vh;
     font-family: 'Roboto', serif;
 }
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 a {
     color: #722f37;
 }
