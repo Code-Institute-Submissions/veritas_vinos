@@ -456,7 +456,7 @@ input[name='q']::placeholder {
         font-size: small;
     }
 
-    container-fluid.product-body {
+    .container-fluid.product-body {
         height: calc(100vh - 168px)
     }
 
