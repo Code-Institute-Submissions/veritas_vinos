@@ -488,5 +488,6 @@ input[name='q']::placeholder {
 
 /* Extra Custom Styles */
 #extra-height {
-    height: calc(100vh - 168px)
+        height: calc(100vh - 232px);
+        margin-top: 4rem;
 }
