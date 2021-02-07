@@ -456,9 +456,10 @@ input[name='q']::placeholder {
         font-size: small;
     }
 
-    .product-body{
+    .product-body {
         height: calc(100vh - 168px)
     }
+
     .bag {
     height: calc(100vh - 296px);
 }
