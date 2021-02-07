@@ -458,7 +458,7 @@ input[name='q']::placeholder {
         font-size: small;
     }
     .bag {
-    height: calc(100vh - 316px);
+    height: calc(100vh - 296px);
 }
     
 }
