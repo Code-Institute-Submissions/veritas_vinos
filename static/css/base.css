@@ -466,7 +466,7 @@ input[name='q']::placeholder {
     }
 
     .bag {
-        height: calc(100vh - 176px)
+        min-height: calc(100vh - 176px)
 }
     
 }
@@ -475,14 +475,11 @@ input[name='q']::placeholder {
 
 .carousel-inner {
     height: 100vh;
-
 }
+
 .carousel-text-box {
-
+    top: 50%;
     font-size: 1.4rem;
-}
-.bag {
-    height: calc(100vh - 316px);
 }
 }
 
