@@ -416,9 +416,14 @@ input[name='q']::placeholder {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     
+    .carousel-inner {
+        height: 100vh;
+    }
+
     .carousel-text-box {
     font-size: 1.2rem;
     line-height: 1.1;
+    top: 45%;
 }
 
     .display-4.logo-font.text-black {
@@ -457,7 +462,7 @@ input[name='q']::placeholder {
     }
 
     .container-fluid.product-body {
-        height: calc(100vh - 168px)
+        min-height: calc(100vh - 168px)
     }
 
     .bag {
