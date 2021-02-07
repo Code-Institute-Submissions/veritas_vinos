@@ -483,6 +483,11 @@ input[name='q']::placeholder {
 }
 }
 
+.bag {
+    min-height: calc(100vh - 240px);
+    margin-top: 4rem;
+}
+
 /* Extra Custom Styles */
 #extra-height {
         height: calc(100vh - 232px);
