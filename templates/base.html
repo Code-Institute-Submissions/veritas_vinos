@@ -134,43 +134,8 @@
     {% endblock %}
 
     {% block content %}
+    {% include 'includes/footer.html' %}
     {% endblock %}
-
-    <!-- Footer -->
-	<footer>
-		<div class="container-fluid footer-container text-center">
-			<div class="footer-logo text-uppercase"><strong>Veritas</strong> Vinos</div>
-			<div class="row">
-				<div class="col">
-					<ul class="list-inline social-links">
-						<li class="list-inline-item">
-							<a href="https://www.facebook.com/" aria-label="Facebook" target="_blank">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="https://www.twitter.com/" aria-label="Twitter" target="_blank">
-								<i class="fab fa-twitter"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="https://www.instagram.com/" aria-label="Instagram" target="_blank">
-								<i class="fab fa-instagram"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col footer-copyright">
-					<p>
-						Copyright Adrian Laub 2020 | Website Designed & Built by
-						Adrian Laub
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
 
     {% block postloadjs %}
     <script type="text/javascript">
