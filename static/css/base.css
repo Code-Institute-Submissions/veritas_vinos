@@ -248,7 +248,7 @@ input[name='q']::placeholder {
 }
 
 .bag {
-    height: calc(100vh - 412px);
+    height: calc(100vh - 416px);
 }
 
 .bag-notification-wrapper {
@@ -415,9 +415,7 @@ input[name='q']::placeholder {
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-    body {
-        height: calc(100vh - 116px);
-    }
+    
     .carousel-text-box {
     font-size: 1.2rem;
     line-height: 1.1;
@@ -456,6 +454,10 @@ input[name='q']::placeholder {
     }
     .small-fs {
         font-size: small;
+    }
+
+    .product-body{
+        height: calc(100vh - 168px)
     }
     .bag {
     height: calc(100vh - 296px);
