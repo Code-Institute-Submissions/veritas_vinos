@@ -477,3 +477,8 @@ input[name='q']::placeholder {
     height: calc(100vh - 316px);
 }
 }
+
+/* Extra Custom Styles */
+#extra-height {
+    height: calc(100vh - 168px)
+}
