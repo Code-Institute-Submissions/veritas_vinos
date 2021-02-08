@@ -247,9 +247,6 @@ input[name='q']::placeholder {
     border-bottom-color: #343a40 !important;
 }
 
-.bag {
-    height: calc(100vh - 416px);
-}
 
 .bag-notification-wrapper {
     height: 100px;
@@ -466,9 +463,6 @@ input[name='q']::placeholder {
         min-height: calc(100vh - 168px)
     }
 
-    .bag {
-        min-height: calc(100vh - 176px)
-}
     
 }
 /* iPhone X ----------- */
@@ -485,7 +479,6 @@ input[name='q']::placeholder {
 }
 
 .bag {
-    min-height: calc(100vh - 236px);
     margin-top: 4rem;
 } 
 
