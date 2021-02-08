@@ -88,6 +88,12 @@ a {
     background: #722f37;
     color: white;
 }
+
+.btn-wine:hover {
+    background: white !important;
+    color: #722f37 !important;
+}
+
 .btn-home {
     background: #722f37;
     font-size: small;
@@ -477,6 +483,10 @@ input[name='q']::placeholder {
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
+
+    .fixed-top {
+        font-size: 1rem;
+}
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
