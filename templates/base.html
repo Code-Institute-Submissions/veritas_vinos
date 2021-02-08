@@ -134,11 +134,8 @@
     {% endblock %}
 
     {% block content %}
-        {% block footer%}
-            {% include 'includes/footer.html' %}
-        {% 'endblock' %}
     {% endblock %}
-
+    {% include 'includes/footer.html' %}    
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
