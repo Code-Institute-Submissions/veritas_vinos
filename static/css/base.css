@@ -386,9 +386,12 @@ input[name='q']::placeholder {
 #id_body {
     width: 100%;
 }
-.container-fluid.footer-container.text-center {
-    padding-left: 0;
-    padding-right: 0;
+.container-fluid-blog.footer-container.text-center {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* -------------------------------- Media Queries */
