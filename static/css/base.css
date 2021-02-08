@@ -412,6 +412,9 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 120px;
     }
+    .bag {
+        min-height: calc(100vh - 236px);
+    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -466,9 +469,7 @@ input[name='q']::placeholder {
         min-height: calc(100vh - 168px)
     }
 
-    .bag {
-        min-height: calc(100vh - 236px);
-    }
+    
     
 }
 /* iPhone X ----------- */
@@ -487,10 +488,4 @@ input[name='q']::placeholder {
 .bag {
     margin-top: 4rem;
     min-height: calc(100vh - 260px);
-} 
-
-/* Extra Custom Styles */
-#extra-height {
-        min-height: calc(100vh - 232px);
-        margin-top: 4rem;
 } 
