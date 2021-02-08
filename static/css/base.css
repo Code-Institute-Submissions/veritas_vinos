@@ -290,6 +290,9 @@ input[name='q']::placeholder {
   .container {
     max-width: 80%;
   }
+  .bag{
+      min-height: calc(100vh - 260px);
+  }
 }
 
 /* Allauth form formatting */
@@ -463,6 +466,9 @@ input[name='q']::placeholder {
         min-height: calc(100vh - 168px)
     }
 
+    .bag {
+        min-height: calc(100vh - 236px);
+    }
     
 }
 /* iPhone X ----------- */
@@ -480,6 +486,7 @@ input[name='q']::placeholder {
 
 .bag {
     margin-top: 4rem;
+    min-height: calc(100vh - 260px);
 } 
 
 /* Extra Custom Styles */
