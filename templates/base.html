@@ -134,7 +134,9 @@
     {% endblock %}
 
     {% block content %}
-    {% include 'includes/footer.html' %}
+        {% block footer%}
+            {% include 'includes/footer.html' %}
+        {% 'block footer' %}
     {% endblock %}
 
     {% block postloadjs %}
