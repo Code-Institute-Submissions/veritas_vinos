@@ -389,33 +389,6 @@ input[name='q']::placeholder {
 
 /* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-  .bag{
-      min-height: calc(100vh - 260px);
-  }
-}
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 120px;
-    }
-    .bag {
-        min-height: calc(100vh - 236px);
-    }
-}
 
 /* iPhone X ----------- */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -495,4 +468,31 @@ input[name='q']::placeholder {
     }
     
     
+}
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 120px;
+    }
+    .bag {
+        min-height: calc(100vh - 236px);
+    }
+}
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+  .bag{
+      min-height: calc(100vh - 260px);
+  }
 }
