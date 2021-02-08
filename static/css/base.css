@@ -469,12 +469,19 @@ input[name='q']::placeholder {
         min-height: calc(100vh - 168px)
     }
 
+    .bag {
+            margin-top: 5rem;
+    height: calc(100vh - 252px);
+    }
     
     
 }
 /* iPhone X ----------- */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 
+.fixed-top {
+    font-size: 0.6rem;
+}
 .carousel-inner {
     height: 100vh;
 }
