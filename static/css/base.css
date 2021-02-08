@@ -104,7 +104,7 @@ a {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important; /* use important to override link colors for a elements */
     border: 1px solid black;
 }
 
@@ -411,7 +411,7 @@ input[name='q']::placeholder {
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
-@media (min-width: 768px) and(max-width: 991px) {
+@media (min-width: 768px) {
     
     .carousel-inner {
         height: 100vh;
@@ -421,7 +421,7 @@ input[name='q']::placeholder {
     font-size: 1.2rem;
     line-height: 1.1;
     top: 45%;
-}
+    }
 
     .display-4.logo-font.text-black {
         font-size: 2rem;
@@ -465,10 +465,9 @@ input[name='q']::placeholder {
     .bag {
         margin-top: 5rem;
         height: calc(100vh - 252px);
-    }
-    
-    
+    }    
 }
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -492,7 +491,7 @@ input[name='q']::placeholder {
   .container {
     max-width: 80%;
   }
-  .bag{
+  .bag {
       min-height: calc(100vh - 260px);
   }
 }
