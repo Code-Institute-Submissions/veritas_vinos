@@ -464,7 +464,7 @@ input[name='q']::placeholder {
 
     .bag {
         margin-top: 5rem;
-        height: calc(100vh - 252px);
+        min-height: calc(100vh - 252px);
     }    
 }
 
@@ -492,6 +492,7 @@ input[name='q']::placeholder {
     max-width: 80%;
   }
   .bag {
-      min-height: calc(100vh - 260px);
+      margin-top: 1rem;
+      min-height: calc(100vh - 308px);
   }
 }
