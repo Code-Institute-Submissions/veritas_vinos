@@ -92,6 +92,7 @@ a {
 .btn-wine:hover {
     background: white !important;
     color: #722f37 !important;
+    border: 1px solid #722f37;
 }
 
 .btn-home {
@@ -392,7 +393,7 @@ input[name='q']::placeholder {
 #id_body {
     width: 100%;
 }
-.container-fluid-blog.footer-container.text-center {
+.container-fluid-blog {
     width: 100%;
     padding-right: 0px !important;
     padding-left: 0px !important;
