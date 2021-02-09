@@ -30,7 +30,7 @@ Landing Page is designed as a single page website to provide site visitors with 
 This page has minimal amount of information to let the site visitors take next actions. The page compose of `Navbar`, `Carousel`, `About`, `Why Choose Us?` and `Contact Form` section.
 As scrolling down on thie page, the elements are smoothly being placed by [Animate.css](https://animate.style/) and [wow.js](https://wowjs.uk/docs) animation effects to give a dynamic and sophisticated experience to the site visitors.
 
-**Navigation Bar:** The navbar is split into 3 sections with 2 navigation sections to make navigating the site easy. The first is the main navigation items for the about section, contacting, reading the blog and most importantly, shopping for the products. The second is the details for MyAccount, with its sub-menu dependant on whether the users are already logged in or not, or is a superuser, and the bag which displays an up to date total of items in it.
+**Navigation Bar:** The navbar is split into 3 sections with 2 navigation sections to make navigating the site easy. The first is the main navigation items contain 'All Products', 'Blog' and a 'Contact" Section. The second is the details for MyAccount, with its sub-menu dependant on whether the users are already logged in or not, or is a superuser, and the bag which displays an up to date total of items in it.
 
 **Sign up/Register & Sign In** This is found under the My Account menu item where users can log in to their account or register for the site.
 
