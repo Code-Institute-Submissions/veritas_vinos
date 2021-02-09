@@ -19,11 +19,6 @@ a {
   --animate-delay: 0.9s;
 }
 
-.carousel-inner {
-    position: relative;
-    height: calc(100vh - 120px);
-    z-index: 1;
-}
 
 .carousel-indicators-extension {
     z-index: 9000;
@@ -494,6 +489,12 @@ input[name='q']::placeholder {
         right: 0;
         left: 0;
         z-index: 1030;
+    }
+
+    .carousel-inner {
+    position: relative;
+    height: calc(100vh - 120px);
+    z-index: 1;
     }
 
     .header-container {
