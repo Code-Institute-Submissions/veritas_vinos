@@ -269,11 +269,12 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 ## Images & Media
 - All the icons in this website were provided by [Font Awesome](https://fontawesome.com/).
 - Favicon was created with Adobe Photoshop
-- The credits for the images used in this site can be found in this [separated file]().
+- The credits for the images used in this site can be found in this [separated file](https://github.com/lemon-squeezy/veritas_vinos/blob/master/readme_materials/image_credit.md).
 
 ## Acknowledgements
-- Thanks to: my Code Institute Mentor Guido Cecilio Garcia Bernal for his advice throughout the development process.
+- Thanks to: my Code Institute Mentor Akshat_Garg for his advice throughout the development process.
 - Code Institute Slack Community that gave me a light when I was stuck in my coding.
+- And especially the CI Tutor Support.
 
 ## Disclaimer
 This website is created for educational purpose only.
