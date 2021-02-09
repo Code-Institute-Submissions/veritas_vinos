@@ -416,6 +416,9 @@ input[name='q']::placeholder {
 .bag {
     margin-top: 4rem;
     min-height: calc(100vh - 260px);
+}
+#extra-height {
+    min-height: calc(100vh - 188px);
 } 
 }
 
@@ -474,7 +477,10 @@ input[name='q']::placeholder {
     .bag {
         margin-top: 5rem;
         min-height: calc(100vh - 252px);
-    }    
+    }
+    #extra-height {
+    min-height: calc(100vh - 164px);
+}     
 }
 
 /* fixed top navbar only on medium and up */
