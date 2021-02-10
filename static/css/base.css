@@ -410,8 +410,8 @@ input[name='q']::placeholder {
 }
 
 .carousel-text-box {
-    top: 50%;
-    font-size: 1.4rem;
+    top: 40%;
+    font-size: 1.3rem;
 }
 .bag {
     margin-top: 4rem;
@@ -430,9 +430,9 @@ input[name='q']::placeholder {
     }
 
     .carousel-text-box {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     line-height: 1.1;
-    top: 45%;
+    top: 60%;
     }
 
     .display-4.logo-font.text-black {
