@@ -516,6 +516,10 @@ input[name='q']::placeholder {
   .container {
     max-width: 80%;
   }
+  .carousel-text-box {
+    font-size: 1.7rem;
+    top: 50%;
+    }
   .bag {
       margin-top: 1rem;
       min-height: calc(100vh - 308px);
