@@ -4,7 +4,7 @@
 |  Section | Credit | Site | URL |
 | ----------- | ----------- | ----------- | ----------- |
 |  Carousel | Elle Hughes | Pexels | [Link](https://www.pexels.com/de-de/foto/weintrauben-hangen-von-weinreben-3840335/) |  
-|  Carousel | Bruno Cantuária | Pexels | [Link](https://www.pexels.com/de-de/foto/keller-mit-weinflaschen-774455/) |
+|  Carousel | Pixabay | Pexels | [Link]https://www.pexels.com/de-de/foto/ackerland-wahrend-des-sonnenuntergangs-51947/) |
 |  Carousel | Tim Mossholder | Pexels | [Link](https://www.pexels.com/de-de/foto/grune-blatter-2336117/) |
 
 ## Blog

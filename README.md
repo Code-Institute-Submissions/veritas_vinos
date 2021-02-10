@@ -1,7 +1,8 @@
 # Veritas Vinos
 
 Veritas Vinos is an online shop, which offers a huge wine variety. The website also publishes blog posts about wine and it's cultivation where the site visitors can leave a comment.
- 
+This project was built as the 4th Milestone Project for the Code Institute - Full Stack Developer Course.
+You can view the live website here. [Veritas Vinos](https://veritas-vinos.herokuapp.com/)
 # UX
 ## Project Goals
 ### Target Audience
@@ -20,6 +21,9 @@ Veritas Vinos is an online shop, which offers a huge wine variety. The website a
 - Establish the shop's brand image
 - Expand their business effectively
 - Make profit from selling products / services
+
+### User stories
+You can view the user stories [here](readme_materials/wireframes.pdf)
 
 # Features
 
@@ -263,7 +267,7 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 ## Content & Code
 - I constantly read [Django](https://docs.djangoproject.com/en/3.1/), [Stripe](https://stripe.com/docs) and [Python](https://docs.python.org/3/) documenation and tutorial throughout the development.
 - For `Blog` app, I refer to [this tutorial](https://djangocentral.com/building-a-blog-application-with-django/).
-- For search product function, I refer to several articles and video. [Stack Overflow 1](https://stackoverflow.com/questions/3171717/django-search-for-strings-containing-spaces), [Stack Overflow 2](https://stackoverflow.com/questions/34831511/django-prefetch-related-failing-to-pass-data-to-template), [Stack Overflow 3](https://stackoverflow.com/questions/3171717/django-search-for-strings-containing-spaces), [Combine 2 Django Querysets from Different Models](https://chriskief.com/2015/01/12/combine-2-django-querysets-from-different-models/), [Django Queryset:value_list() flat=True](https://amittbhardwj.wordpress.com/2015/10/27/django-querysetvalue_list/).
+- For the text of my products I refer to [Vinexus](https://www.vinexus.de/en/wine/)
 - This project was developed refering to the Boutique Ado Django mini-project from Code Institute course materials. The codes are customized and modified to fit the purpose of this milestone project.
 
 ## Images & Media
