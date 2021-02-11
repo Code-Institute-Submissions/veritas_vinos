@@ -11,9 +11,9 @@ Test transaction details:
 * **expiration date:** 04 / 24
 * **CVC:** 424
 * **ZIP:** 42424
-<div align="center"><img src = "https://github.com/lemon-squeezy/veritas_vinos/blob/master/readme_materials/demo.png" width=900></div>
-<a href="https://de.freepik.com/psd/mockup">Mockup PSD created by aleksandr_samochernyi - de.freepik.com</a>
-You can view the live website here. [Veritas Vinos](https://veritas-vinos.herokuapp.com/)
+<div align="center"><img src = "https://github.com/lemon-squeezy/veritas_vinos/blob/master/readme_materials/demo.jpg" width=900></div>  
+<a href="https://de.freepik.com/psd/mockup">Mockup PSD created by aleksandr_samochernyi - de.freepik.com</a>  
+You can view the live website here. [Veritas Vinos](https://veritas-vinos.herokuapp.com/)  
 # UX
 ## Project Goals
 ### Target Audience
