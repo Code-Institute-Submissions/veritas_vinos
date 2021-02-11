@@ -12,8 +12,9 @@ Test transaction details:
 * **CVC:** 424
 * **ZIP:** 42424
 <div align="center"><img src = "https://github.com/lemon-squeezy/veritas_vinos/blob/master/readme_materials/demo.jpg" width=900></div>  
-<a href="https://de.freepik.com/psd/mockup">Mockup PSD created by aleksandr_samochernyi - de.freepik.com</a>  
-You can view the live website here. [Veritas Vinos](https://veritas-vinos.herokuapp.com/)  
+<a href="https://de.freepik.com/psd/mockup">Mockup PSD created by aleksandr_samochernyi - de.freepik.com</a><br>
+You can view the live website here. [Veritas Vinos](https://veritas-vinos.herokuapp.com/)
+
 # UX
 ## Project Goals
 ### Target Audience
@@ -90,6 +91,25 @@ As scrolling down on thie page, the elements are smoothly being placed by [Anima
 * Leave reviews beneath products: Reading reviews are a great way to help users decide to purchase a product. This feature would be great to include in the future but was not seen as imperative for launch.
 * Subscription purchase model: To entice users to regularly receive lashes, a subscription service would provide them with regular deliveries and a reduced cost. This would also benefit the website owner so that they have pre-orders already in place each month.
 
+## Schema Design
+After careful consideration and taking into account all the different parts of the website and needs of the database, I designed the schema in 5 main sections/models:
+
+**user_profile:** These are the details that the user saves to their profile for quick checkouts in the future. The username, email address and password details are set when the user registers for the site, and the delivery details are added when the user makes a purchase and selects to save those details to their profile.
+
+**order:** This includes the overall order in full, including the delivery details from (from or added to the user profile) and the order_line_items.
+
+**order_line_items:** This includes details of each product the user orders, the details of each product are linked to the products section.
+
+**products:** This includes all the information related to each product, including the category, sku, name, taste, winery, country, grape_variety, alcohol, acid, residual_sugar, description, price, rating, image.
+
+**category:** Linking to the category field in the products section, the Category model simply holds the categories which are chosen in the product model. These categories are pre-set and can only be modified or added to by a Superuser/Authenticated user.
+
+**blog:** This section is non-relational to the rest of the database, and it holds details of the blog posts including the blog title, author, status, image, image_url and the post itself. The blog can only be added by a Superuser/Authenticated user.
+
+**blog Comment:** If a user is signed into their account and they wish to leave a comment on the blog, the email field required in the form will be linked to their account and pre-filled with the user’s email. The blog comment models also require a name, comment body, date it was created on and the active status (published or draft).
+
+![Schema](static/readme_docs/schema.jpg)
+
 # Technologies
 ## Tools and Services Used
 - [Balsamiq](https://balsamiq.com/) for the wireframes design.
@@ -115,25 +135,65 @@ As scrolling down on thie page, the elements are smoothly being placed by [Anima
 
   - This project uses HTML, CSS, Javascript and Python programming languages.
 
-## Testing
+## Manual Testing
+For this project, I put the website through some vigorous testing. This included testing manually myself, by a friend, by my Mentor and also by the slack community in the peer-code review page.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+#### Home page
+  1. Check navbar links to see whether they are sending to the real url.
+  2. Add keyword on the `search` bar and check if it brings the result asked or a feedback message.
+  3. On the contact form add the name, email, subject and message checking if it will be submitted.
+  4. Check if all the links on footer are working proper.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+### Accounts app
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### Register page
+  1. At the home page click on register.
+  2. On the register page add your name, email address and password twice.
+  3. If the register page be successful the register page will redirect to the home page with a message the user is registered or logged in.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+#### Login page
+  1. Add your user name or email and password.
+  2. If the username or email and password works well the user will be redirected to the home page already logged in.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+#### Reset password pages
+  1. At the login page click on the `forgot password` link.
+  2. Add your email address linked to the account.
+  3. Receiving the email address click on the link to reset the email.
+  4. Add new password twice.
+  5. Click on the login page to be authorised.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Cart app
+  1. On the product detail page click on add to cart.
+  2. Click on the remove or update link to remove an item or increase / decrease the quantity.
+  3. Click on the button checkout to be redirected to login if you are not logged in or checkout if you already is logged.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Checkout
+ following the step 3 of the cart app, add the following details:
+
+  1. Full name, phone number, country, postcode, town or city, street address 1 and 2 and county.
+  2. For the credit card number you should add `4242424242424242`, any cvv and a correspondent data in the future.
+  3. Click on the submit payment button.
+  4. If the payment went through you will be redirected to the checkout_success page and receive a message with your bill.
+  5. If the payment doesn't go through you will receive a message the card was not accepted.
+
+## Web testing
+
+The devices the application was tested were:
+
+### Mobile
+  - Galaxy S5
+  - Pixel 2
+  - iPhone 6, 7 and 8
+  - iPhone X (real device)
+
+### Tablet
+  - iPad
+  - iPad Pro
+
+### Laptop
+  - Macbook (real device)
+
+For the web testing I used Chrome dev tools to find bugs, errors and test new styles for HTML, CSS and JavaScript.
 
 # Deployment
 ## Heroku Deployment with AWS
