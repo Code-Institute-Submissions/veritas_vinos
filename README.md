@@ -2,6 +2,15 @@
 
 Veritas Vinos is an online shop, which offers a huge wine variety. The website also publishes blog posts about wine and it's cultivation where the site visitors can leave a comment.
 This project was built as the 4th Milestone Project for the Code Institute - Full Stack Developer Course.
+**IMPORTANT (disclaimer): This project contains real products from existing brands.
+If you wish to purchase them you can visit: [Vinexus](https://www.vinexus.de/en/wine/)
+If you want to make a test purchase on my site you can use the deteails below.
+
+Test transaction details:
+* **credit card:** 4242 4242 4242 4242
+* **expiration date:** 04 / 24
+* **CVC:** 424
+* **ZIP:** 42424
 You can view the live website here. [Veritas Vinos](https://veritas-vinos.herokuapp.com/)
 # UX
 ## Project Goals
@@ -23,7 +32,21 @@ You can view the live website here. [Veritas Vinos](https://veritas-vinos.heroku
 - Make profit from selling products / services
 
 ### User stories
-You can view the user stories [here](readme_materials/wireframes.pdf)
+You can view the user stories [here](readme_materials/user_stories.pdf)
+
+## Design
+### Wireframes
+You can find the wireframes [here](https://github.com/lemon-squeezy/veritas_vinos/blob/master/readme_materials/wireframes).
+
+### Brand Identity
+- Vision: Satisfy individual taste requirements.
+- Mission: Provide a wide range of wines which can be purchased with one click online without the hassle of going to a physical shops.
+- Values: 1. Enjoyment - Enjoy the variety and the unique taste of the wine. 2. Quality - We stand out with a particularly high quality. 3. Lifestyle - Our products raise your lifestyle.
+
+### Color Scheme
+I used 3 different colors for this page. The background is white, so you can focus more on the products. Body texts are laid out in black. The logo and the headings are represented by a wine red.
+
+<p align="center"><img src = "https://raw.githubusercontent.com/lemon-squeezy/veritas_vinos/master/readme_materials/colors.png" width=900></p>
 
 # Features
 
@@ -109,8 +132,6 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
 
 # Deployment
 ## Heroku Deployment with AWS
