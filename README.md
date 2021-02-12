@@ -1,7 +1,7 @@
 # Veritas Vinos
 
 Veritas Vinos is an online shop, which offers a huge wine variety. The website also publishes blog posts about wine and it's cultivation where the site visitors can leave a comment.
-This project was built as the 4th Milestone Project for the Code Institute - Full Stack Developer Course.
+This project was built as the 4th Milestone Project for the Code Institute - Full Stack Developer Course.<br>
 **IMPORTANT (disclaimer): This project contains real products from existing brands.
 If you wish to purchase them you can visit: [Vinexus](https://www.vinexus.de/en/wine/)
 If you want to make a test purchase on my site you can use the deteails below.
@@ -13,7 +13,7 @@ Test transaction details:
 * **ZIP:** 42424
 <div align="center"><img src = "https://github.com/lemon-squeezy/veritas_vinos/blob/master/readme_materials/demo.jpg" width=900></div>  
 <a href="https://de.freepik.com/psd/mockup">Mockup PSD created by aleksandr_samochernyi - de.freepik.com</a><br>
-You can view the live website here. [Veritas Vinos](https://veritas-vinos.herokuapp.com/)
+You can view the live website here: [Veritas_Vinos](https://veritas-vinos.herokuapp.com/)
 
 # UX
 ## Project Goals
@@ -21,7 +21,7 @@ You can view the live website here. [Veritas Vinos](https://veritas-vinos.heroku
 - People who want to buy wine 
 - People who prefer more exclusive products that they can't get in a supermarket.
 - People who seek for presents for special occasions such as birthdays, weddings, anniversaries, etc.
-- People who want to read interesting blog articles about wine, it's cultivation and production
+- People who want to read interesting blog articles about wine, it's cultivation and production.
 
 ### Visitor / User Goals
 - Purchase products in a smooth and secure way
@@ -35,7 +35,7 @@ You can view the live website here. [Veritas Vinos](https://veritas-vinos.heroku
 - Make profit from selling products / services
 
 ### User stories
-You can view the user stories [here](readme_materials/user_stories.pdf)
+You can view the user stories [here](readme_materials/user_stories.pdf).
 
 ## Design
 ### Wireframes
@@ -89,7 +89,7 @@ As scrolling down on thie page, the elements are smoothly being placed by [Anima
 * Defensive delete button: Currently, the Delete button to delete a product has no defence to stop it being automatically pressed. A confirmation of delete should be added.
 * The possibilty for user to rate the products. Curently the admin provides the rating for each product.
 * Leave reviews beneath products: Reading reviews are a great way to help users decide to purchase a product. This feature would be great to include in the future but was not seen as imperative for launch.
-* Subscription purchase model: To entice users to regularly receive lashes, a subscription service would provide them with regular deliveries and a reduced cost. This would also benefit the website owner so that they have pre-orders already in place each month.
+* Subscription purchase model: To entice users to regularly receive their favorite wines, a subscription service would provide them with regular deliveries and a reduced cost. This would also benefit the website owner so that they have pre-orders already in place each month.
 
 ## Schema Design
 After careful consideration and taking into account all the different parts of the website and needs of the database, I designed the schema in 5 main sections/models:
@@ -108,7 +108,7 @@ After careful consideration and taking into account all the different parts of t
 
 **blog Comment:** If a user is signed into their account and they wish to leave a comment on the blog, the email field required in the form will be linked to their account and pre-filled with the user’s email. The blog comment models also require a name, comment body, date it was created on and the active status (published or draft).
 
-![Schema](static/readme_docs/schema.jpg)
+![Schema](readme_materials/schema.jpg)
 
 # Technologies
 ## Tools and Services Used
