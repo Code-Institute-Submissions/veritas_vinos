@@ -454,7 +454,8 @@ input[name='q']::placeholder {
     }
 
     .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
+    .btn.btn-black.rounded-0.btn-lg,
+    .btn-wine {
         padding: .375rem .375rem;
         font-size: .7rem;
     }
