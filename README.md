@@ -1,5 +1,6 @@
 # Veritas Vinos
-
+<div align="center"><img src = "https://github.com/lemon-squeezy/veritas_vinos/blob/master/readme_materials/demo.jpg" width=900></div>  
+<a href="https://de.freepik.com/psd/mockup">Mockup PSD created by aleksandr_samochernyi - de.freepik.com</a><br>
 Veritas Vinos is an online shop, which offers a huge wine variety. The website also publishes blog posts about wine and it's cultivation where the site visitors can leave a comment.
 This project was built as the 4th Milestone Project for the Code Institute - Full Stack Developer Course.<br>
 **IMPORTANT (disclaimer): This project contains real products from existing brands.
@@ -11,9 +12,8 @@ Test transaction details:
 * **expiration date:** 04 / 24
 * **CVC:** 424
 * **ZIP:** 42424
-<div align="center"><img src = "https://github.com/lemon-squeezy/veritas_vinos/blob/master/readme_materials/demo.jpg" width=900></div>  
-<a href="https://de.freepik.com/psd/mockup">Mockup PSD created by aleksandr_samochernyi - de.freepik.com</a><br>
-You can view the live website here: [Veritas_Vinos](https://veritas-vinos.herokuapp.com/)
+
+You can view the live website here: (https://veritas-vinos.herokuapp.com/)
 
 - [Veritas Vinos](#veritas-vinos)
 - [UX](#ux)
