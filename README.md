@@ -133,7 +133,7 @@ As scrolling down on thie page, the elements are smoothly being placed by [Anima
 
 ### Features Left to Implement
 * Defensive delete button: Currently, the Delete button to delete a product has no defence to stop it being automatically pressed. A confirmation of delete should be added.
-* The possibilty for user to rate the products. Curently the admin provides the rating for each product.
+* The possibilty for user to rate the products. Currently the admin provides the rating for each product.
 * Leave reviews beneath products: Reading reviews are a great way to help users decide to purchase a product. This feature would be great to include in the future but was not seen as imperative for launch.
 * Subscription purchase model: To entice users to regularly receive their favorite wines, a subscription service would provide them with regular deliveries and a reduced cost. This would also benefit the website owner so that they have pre-orders already in place each month.
 
@@ -354,9 +354,8 @@ if 'USE_AWS' in os.environ:
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 ```
-5. Add [custom_storages.py](https://github.com/AsunaMasuda/FloweryDays/blob/master/custom_storages.py).
-6. Delete DISABLE_COLLECTSTATIC from Heroku Config Var.
-7. Push all the changes to Github/Heroku and all the static files will be uploaded to S3 bucket.
+5. Delete DISABLE_COLLECTSTATIC from Heroku Config Var.
+6. Push all the changes to Github/Heroku and all the static files will be uploaded to S3 bucket.
 By setting up above, Heroku will run python3 manage.py collectstatic during the build process and look for static and media files.
 
 ### Automatic Deploy on Heroku

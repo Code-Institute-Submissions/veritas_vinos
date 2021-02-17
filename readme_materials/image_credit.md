@@ -3,9 +3,9 @@
 ## Landing Page
 |  Section | Credit | Site | URL |
 | ----------- | ----------- | ----------- | ----------- |
-|  Carousel | Elle Hughes | Pexels | [Link](https://www.pexels.com/de-de/foto/weintrauben-hangen-von-weinreben-3840335/) |  
-|  Carousel | Pixabay | Pexels | [Link](https://www.pexels.com/de-de/foto/ackerland-wahrend-des-sonnenuntergangs-51947/) |
-|  Carousel | Tim Mossholder | Pexels | [Link](https://www.pexels.com/de-de/foto/grune-blatter-2336117/) |
+|  Carousel 1 | Elle Hughes | Pexels | [Link](https://www.pexels.com/de-de/foto/weintrauben-hangen-von-weinreben-3840335/) |  
+|  Carousel 2 | Pixabay | Pexels | [Link](https://www.pexels.com/de-de/foto/ackerland-wahrend-des-sonnenuntergangs-51947/) |
+|  Carousel 3 | Tim Mossholder | Pexels | [Link](https://www.pexels.com/de-de/foto/grune-blatter-2336117/) |
 
 ## Blog
 |  Blog Name | Credit | Site | URL |
