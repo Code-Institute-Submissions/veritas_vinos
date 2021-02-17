@@ -80,8 +80,10 @@ a {
 }
 
 .btn-wine {
-    background: #722f37;
+    background: #722f37 !important;
     color: white;
+    border-radius: 0;
+    border: 1px solid #722f37;
 }
 
 .btn-wine:hover {
