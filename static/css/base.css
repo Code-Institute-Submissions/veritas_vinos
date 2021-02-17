@@ -464,6 +464,9 @@ input[name='q']::placeholder {
         padding: .375rem .375rem;
         font-size: .7rem;
     }
+    .btt-button.shadow-sm.rounded-0 {
+    margin: 0.8rem;
+} 
 
     /* Extra padding for a few buttons */
     .extra-padding {
