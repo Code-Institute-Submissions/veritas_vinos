@@ -15,6 +15,8 @@ Test transaction details:
 
 You can view the live website here: (https://veritas-vinos.herokuapp.com/)
 
+## Table of Contents
+
 - [Veritas Vinos](#veritas-vinos)
 - [UX](#ux)
   * [Project Goals](#project-goals)
