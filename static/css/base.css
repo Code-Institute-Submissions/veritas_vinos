@@ -83,7 +83,7 @@ a {
     background: #722f37 !important;
     color: white;
     border-radius: 0;
-    border: 1px solid #722f37;
+    border: 1px solid #722f37 !important;
 }
 
 .btn-wine:hover {
@@ -417,7 +417,11 @@ input[name='q']::placeholder {
 }
 #extra-height {
     min-height: calc(100vh - 188px);
+}
+.btt-button.shadow-sm.rounded-0 {
+    margin: 0.8rem;
 } 
+
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
