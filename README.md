@@ -42,7 +42,7 @@ You can view the live website here: (https://veritas-vinos.herokuapp.com/)
       - [Register page](#register-page)
       - [Login page](#login-page)
       - [Reset password pages](#reset-password-pages)
-    + [Cart app](#cart-app)
+    + [Bag app](#bag-app)
     + [Checkout](#checkout)
   * [Web testing](#web-testing)
     + [Mobile](#mobile)
@@ -208,13 +208,13 @@ For this project, I put the website through some vigorous testing. This included
   4. Add new password twice.
   5. Click on the login page to be authorised.
 
-### Cart app
-  1. On the product detail page click on add to cart.
+### Bag app
+  1. On the product detail page click on add to bag.
   2. Click on the remove or update link to remove an item or increase / decrease the quantity.
   3. Click on the button checkout to be redirected to login if you are not logged in or checkout if you already is logged.
 
 ### Checkout
- following the step 3 of the cart app, add the following details:
+ following the step 3 of the bag app, add the following details:
 
   1. Full name, phone number, country, postcode, town or city, street address 1 and 2 and county.
   2. For the credit card number you should add `4242424242424242`, any cvv and a correspondent data in the future.
@@ -245,7 +245,7 @@ For the web testing I used Chrome dev tools to find bugs, errors and test new st
 ## Heroku Deployment with AWS
 This website is deployed on [Heroku](https://www.heroku.com/), following these steps:
 1. Install these packages to your local environment, since these packages are required to deploy a Django project on Heroku.
-- [gnicorn](https://gunicorn.org/): `gnicorn` is Python WSGI(web server gataway interface) server for UNIX.
+- [gunicorn](https://gunicorn.org/): `gunicorn` is Python WSGI(web server gataway interface) server for UNIX.
 - [gninx](https://www.nginx.com/): `gninx` is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
 - [psycopg2-binary](https://pypi.org/project/psycopg2-binary/): `psycopg2-binary` is PostgreSQL database adapter for the Python programming language.
 - [dj-database-url](https://pypi.org/project/dj-database-url/): `dj-database-url` allows you to utilize the 12factor inspired DATABASE_URL environment variable to configure your Django application.
@@ -300,7 +300,7 @@ else:
 13. Disable collect static, so that Heroku won't try to collect static file with: `heroku config:set DISABLE_COLLECTSTATIC=1`
 14. Add `'veritas-vinos.herokuapp.com', 'localhost', '127.0.0.1'` to `ALLOWED_HOSTS` in settings.py.
 ```
-ALLOWED_HOSTS = ['flowerydays.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['veritas-vinos.herokuapp.com', 'localhost', '127.0.0.1']
 ```
 15. In Stripe, add Heroku app URL a new webhook endpoint.
 16. Update the settings.py with the new Stripe environment variables and email settings.
@@ -338,7 +338,7 @@ if 'USE_AWS' in os.environ:
     }
 
     # Bucket Config
-    AWS_STORAGE_BUCKET_NAME = 'flowerydays'
+    AWS_STORAGE_BUCKET_NAME = 'veritas-vinos'
     AWS_S3_REGION_NAME = 'eu-west-1'
     AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
@@ -409,4 +409,5 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"
 - And especially the CI Tutor Support.
 
 ## Disclaimer
+I have no intention of selling any of the products listed here.
 This website is created for educational purpose only.
