@@ -136,7 +136,7 @@ As scrolling down on thie page, the elements are smoothly being placed by [Anima
 * The possibilty for user to rate the products. Currently the admin provides the rating for each product.
 * Leave reviews beneath products: Reading reviews are a great way to help users decide to purchase a product. This feature would be great to include in the future but was not seen as imperative for launch.
 * Subscription purchase model: To entice users to regularly receive their favorite wines, a subscription service would provide them with regular deliveries and a reduced cost. This would also benefit the website owner so that they have pre-orders already in place each month.
-
+* Rich Text Editor to write blog articles. Currently the user needs a some basic knowledge of HTML to add or format text for a blog entry.
 ## Schema Design
 After careful consideration and taking into account all the different parts of the website and needs of the database, I designed the schema in 5 main sections/models:
 
